@@ -1,0 +1,6 @@
+framework module ZZSwitch {
+  umbrella header "ZZSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}
