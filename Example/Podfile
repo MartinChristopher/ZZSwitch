@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZZSwitch_Example' do
+  pod 'ZZSwitch', :path => '../'
+
+  target 'ZZSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
